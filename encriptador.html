@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>  
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Encriptador</h1>
+            <img src="Vector.png" alt="aluralogo">
+        </header>
+
+        <main>
+
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Coloca el texto aqui, recuerde que solo se aceptan 
+                LETRAS MINISCULAS"></textarea>
+                <div class="botones"> <br>
+                    <button class="encriptar" onclick="btnEncriptar()"> Encriptar </button>
+                    <button class="desencriptar" onclick="btndesencriptar()"> Desencriptar </button>
+                </div>
+
+            </section>
+               
+            <section>
+                <textarea class="mensaje" cols="18" rows="10" placeholder="No hay nada que traducir" style="background-image: url(Muñeco.png);"></textarea><br>
+                <button class="copiar" onclick="copiar()"> Copiar </button>
+            </section>
+
+        </main>
+         
+        <script src="java.js"></script>
+
+        <footer>
+
+            <p class="copyright">&copy Copyright <br> Encriptador Alura 2022 <br> Ixchel Guzmán</p>
+        </footer>
+    </body>
+
+</html>

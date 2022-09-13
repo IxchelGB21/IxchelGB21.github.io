@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(#0E0E0E, #010AC6, #38cae4);
+    font-family:'Raleway', sans-serif ;
+}
+
+header{
+    padding: 20px 20px;
+}
+
+h1 {
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 15%;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+img{
+    margin-left: 10%;
+   
+}
+
+main {
+    display: flex;
+    margin-top: 0%;
+    margin-left: 10%;    
+}
+
+section{
+    margin: 5%;
+
+}
+
+.input-texto{
+    display: block;
+    width: 120%;
+    padding: 30px 20px;
+    border: none;
+    background: radial-gradient(#FFFFFF #38cae4);
+}
+
+.botones{
+    margin-left: 140px;
+    
+}
+
+.encriptar {
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+    
+}
+
+.encriptar:hover{
+    background-color: black; 
+    color: white;
+}
+
+.desencriptar {
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+}
+
+.desencriptar:hover{
+    background-color: black; 
+    color: white;
+}
+
+
+.mensaje{
+    background-repeat: no-repeat;
+    background-size: 270px;
+    background-position: bottom;
+    display: block;
+    width: 120%;
+    padding: 80px 20px;
+    margin-left: 60px;
+    border: none 
+
+}
+
+.copiar{
+    margin-left: 210px; 
+    padding-block-end: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+}
+
+.copiar:hover{
+    background-color: black; 
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+   
+}
